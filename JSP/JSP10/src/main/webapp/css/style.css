@@ -1,0 +1,79 @@
+@charset "utf-8";
+#wrap{
+	width:300px;
+	/*height:300px;*/
+	background-color:#fff;
+	margin:0 auto;
+	
+}
+td{
+	width:100px;
+	height:30px;
+	font-size:20px;
+	font-weight: 600;
+	border:1px solid black;
+	text-align:center;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+li{
+	width:98px;
+	height:28px;
+	border:1px solid black;
+	float:left;
+	text-align:center;
+	line-height:28px;
+}
+/*ul:after{
+	content:"ABCD";
+	
+	.box가 끝난기 전
+}
+
+
+css로 그려놓은 것이다.드래그해서 폰트인지 확인한다
+
+clear 어디에 고정시킨다. clearFix
+
+
+
+*/
+
+.box div{
+	width:98px;
+	height:28px;
+	border:1px solid black;
+	float:left;
+	text-align: center;
+	line-height: 28px;
+}
+.box:after{
+	content:"";
+	display: block;
+	clear:both;
+} /*가상태그로 다른 태그에 영향을 주지 않으면서 면적을 유지할 수 있다*/
+
+#result{
+	border:1px solid black;
+	height:130px;
+}
+input:last-child{
+	display: block;
+	margin:0 auto;
+	font-size:20px;
+	font-weight: 600;
+	background-color: white;
+}
+
+input:last-child:hover{
+	background-color: black;
+	color:white;
+}
+
+h1{
+	text-align:center;
+	margin:0px;
+}
