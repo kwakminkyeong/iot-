@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+	<!-- 데이터의 호환관계만 그림을 그릴 수 없기 때문에 태그이름을 마음대로 정할 수 있다. -->
+	<iot>
+		<subject>iot입문</subject>
+		<subject>aduino</subject>
+		<subject>python</subject>
+	</iot>
+	<web>
+		<subject>HTML</subject>
+		<subject>JavaScript</subject>
+		<subject>JSP</subject>
+	</web>
+	<app>
+		<subject>Java</subject>
+		<subject>android</subject>
+		<subject>mysql</subject>
+	</app>
+
+</class>
